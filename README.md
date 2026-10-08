@@ -1,5 +1,5 @@
 ![Crayon — Local AI Coding CLI](./crayon-cli.png)
-<center># Crayon</center>
+<center>Crayon</center>
 
 ### Local AI Coding CLI
 
