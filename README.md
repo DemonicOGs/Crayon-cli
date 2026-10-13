@@ -385,6 +385,40 @@ The release also cleaned up the help interface and removed the old fake "One-sho
 
 ---
 
+## v0.5.5 — Local Model Presets + Coding-Agent Workflow
+
+Expanded Crayon's local-first architecture with multiple model presets and a broader set of coding-agent tools.
+
+### Included
+
+- Five local model presets:
+  - `qwen3-4b`
+  - `qwen2.5-coder-3b`
+  - `nemotron-3-nano-4b`
+  - `gemma-4-e2b`
+  - `gemma-4-e2b-transformers`
+- GGUF inference through `llama-cpp-python` and a Transformers runtime for Gemma.
+- Local model discovery, download, and switching commands.
+- Streaming inference through the Python FastAPI server.
+- Agent task execution and persistent agent instructions.
+- Project file tools, code search, project indexing, and project memory.
+- Checkpoints, undo/restore workflows, test execution, and diagnostics.
+- Session save and resume commands.
+- Permission modes: `restricted`, `approve-only`, and `full-access`.
+- Local, configured remote, and browser-based inference backends.
+- `/usage` for session usage and recent prompt history.
+- Updated terminal dashboard and Quick Actions layout.
+- Multimodal image, audio, video, and multi-file understanding with the compatible Gemma Transformers preset.
+
+### Model and runtime notes
+
+- Model weights are not bundled with the project and may be downloaded or cached on first use.
+- GGUF support depends on the installed `llama-cpp-python` build supporting the selected model architecture.
+- The Gemma Transformers preset requires compatible Transformers dependencies and sufficient system resources.
+- Permission modes are application-level controls, not an operating-system sandbox.
+
+---
+
 # 💻 CLI Commands
 
 ```text
@@ -699,6 +733,10 @@ v0.5.3
 v0.5.4
   │
   └── Expanded Development Commands
+          │
+v0.5.5
+  │
+  └── Local Model Presets + Coding-Agent Workflow
 ```
 
 ---
@@ -717,6 +755,7 @@ v0.5.4
 | `v0.5.2` | Local Server Management |
 | `v0.5.3` | Local Runtime Stabilization |
 | `v0.5.4` | Expanded Development Commands |
+| `v0.5.5` | Local Model Presets + Coding-Agent Workflow |
 
 ---
 
