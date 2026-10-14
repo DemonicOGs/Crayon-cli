@@ -1,6 +1,6 @@
 ![Crayon — Local AI Coding CLI](./crayon-cli.png)
 
-# Crayon CLI v0.5.5
+# Crayon CLI v0.5.7
 
 ### Local AI Coding CLI
 
@@ -8,7 +8,7 @@ Crayon is a local-first AI coding CLI designed to bring AI-assisted development 
 
 It combines a TypeScript/Node.js CLI with local AI inference, development tools, streaming responses, multimodal capabilities, project instructions, and local model management.
 
-**Current documented release:** `v0.5.5` — Local Model Presets + Coding-Agent Workflow
+**Current documented release:** `v0.5.7` — Coding-Agent Workflow Improvements and Stabilization
 
 ---
 
@@ -117,7 +117,7 @@ The local backend performs inference on the user's machine. Hugging Face can sup
 
 ---
 
-# 🧠 Model Presets — v0.5.5
+# 🧠 Model Presets — v0.5.7
 
 The local model server defines these presets:
 
@@ -765,6 +765,39 @@ Expanded Crayon's local-first architecture with multiple model presets and a bro
 
 ---
 
+## v0.5.6 — Agent Workflow, Git Tools + Project Intelligence
+
+Expanded the coding-agent workflow and project-level development tools.
+
+### Documented additions
+
+- Improved autonomous agent task execution and task handling.
+- Git-oriented review and rollback workflows.
+- Incremental project indexing improvements.
+- Model management and session recovery improvements.
+- Architecture and impact analysis helpers.
+- Patch review and affected-test workflows.
+- Debugging and error-explanation helpers.
+- Evaluation/reporting support.
+
+Feature availability depends on the exact source build and its configuration. Confirm command syntax with `/help`.
+
+---
+
+## v0.5.7 — Maintenance, Stabilization + Compatibility
+
+Continued work on the v0.5.6 codebase with a focus on maintaining the existing CLI and local inference architecture.
+
+### Release notes
+
+- Retains the TypeScript/Node.js CLI and Python FastAPI inference server architecture described in this README.
+- Retains the local model presets and coding-agent capabilities documented for v0.5.5, subject to the installed build.
+- Treats the v0.5.7 source tree as the baseline for subsequent packaging and Python-CLI migration experiments.
+
+**Important:** The Python-only CLI migration was a separate experimental workstream and should not be interpreted as a completed, feature-parity replacement for the v0.5.7 TypeScript CLI.
+
+---
+
 # 📜 Version Timeline
 
 ```text
@@ -789,6 +822,10 @@ v0.5.3  ── Local Runtime Stabilization
 v0.5.4  ── Expanded Development Commands
    │
 v0.5.5  ── Local Model Presets + Coding-Agent Workflow
+   │
+v0.5.6  ── Agent Workflow, Git Tools + Project Intelligence
+   │
+v0.5.7  ── Maintenance, Stabilization + Compatibility
 ```
 
 ---
@@ -808,6 +845,8 @@ v0.5.5  ── Local Model Presets + Coding-Agent Workflow
 | `v0.5.3` | Local Runtime Stabilization |
 | `v0.5.4` | Expanded Development Commands |
 | `v0.5.5` | Local Model Presets + Coding-Agent Workflow |
+| `v0.5.6` | Agent Workflow, Git Tools + Project Intelligence |
+| `v0.5.7` | Maintenance, Stabilization + Compatibility |
 
 ---
 
@@ -824,5 +863,5 @@ See the `LICENSE` file included with the project.
 ```text
 CRAYON
 Local AI Coding CLI
-v0.5.5
+v0.5.7
 ```
