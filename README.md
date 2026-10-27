@@ -798,6 +798,12 @@ Continued work on the v0.5.6 codebase with a focus on maintaining the existing C
 
 ---
 
+## v0.5.8 — Python CLI Scaffold (Experimental)
+
+The [v0.5.8 source and npm package](releases/v0.5.8/README.md) are available as a separate Python CLI scaffold. The release notes state that full feature parity with the v0.5.7 TypeScript CLI and inference backend is unverified; v0.5.8 should not be treated as a feature-parity replacement.
+
+---
+
 # 📜 Version Timeline
 
 ```text
@@ -826,6 +832,8 @@ v0.5.5  ── Local Model Presets + Coding-Agent Workflow
 v0.5.6  ── Agent Workflow, Git Tools + Project Intelligence
    │
 v0.5.7  ── Maintenance, Stabilization + Compatibility
+   │
+v0.5.8  ── Experimental Python CLI Scaffold
 ```
 
 ---
@@ -847,6 +855,7 @@ v0.5.7  ── Maintenance, Stabilization + Compatibility
 | `v0.5.5` | Local Model Presets + Coding-Agent Workflow |
 | `v0.5.6` | Agent Workflow, Git Tools + Project Intelligence |
 | `v0.5.7` | Maintenance, Stabilization + Compatibility |
+| `v0.5.8` | Experimental Python CLI Scaffold |
 
 ---
 

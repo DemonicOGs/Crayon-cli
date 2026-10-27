@@ -1,0 +1,7 @@
+{
+  "policy": "workspace-write",
+  "output": "text",
+  "skills": {
+    "directories": []
+  }
+}
